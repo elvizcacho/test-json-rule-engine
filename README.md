@@ -4,7 +4,7 @@
 ```bash
 npm install
 ```
-### 
+### Run demo
 ```bash
 npm start
 ```
