@@ -43,7 +43,7 @@ engine.addRule({
   event: {
     type: "onUnrestrictedDocument",
     params: {
-      message: "document is unrestricted do something aobut it",
+      message: "document is unrestricted do something about it",
     },
   },
 });
@@ -100,7 +100,7 @@ engine.run(facts).then(({ events }) => {
     console.log(onRestrictedDocument.params);
 
     console.log(
-      "document type is supported and is a restricted document to something"
+      "document type is supported and is a restricted document do something"
     );
   }
 
@@ -109,7 +109,7 @@ engine.run(facts).then(({ events }) => {
     console.log(onUnrestrictedDocument.params);
 
     console.log(
-      "document type is supported and is a unrestricted document to something"
+      "document type is supported and is a unrestricted document do something"
     );
   }
 });
